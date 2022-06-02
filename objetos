@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+  Nome do Carro:  <input type="text" id = "nomeDigitado" value=""><br>
+  Ano:  <input type="text" id = "anoDigitado" value=""><br>
+  Marca:  <input type="text" id = "marcaDigitado" value=""><br>
+  Valor:   <input type="text" id = "valorDigitado" value=""><br>
+    <input
+            type="button"
+            class="button button2"
+            value="Salvar"
+            onclick="salvar()"
+          />
+</body>
+</html>
